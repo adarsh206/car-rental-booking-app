@@ -9,8 +9,8 @@ const Navbar = ({ setShowLogin }) => {
     const navigate = useNavigate();
 
   return (
-    <div className={`flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 text-gray-600 border-b border-borderColor
-    relative transition-all ${location.pathname === "/" && "bg-light"}`}>
+    <div className={`flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 text-gray-600 border-b border-borderColor backdrop-blur-3xl 
+        sticky top-0 z-50 drop-shadow-2xl drop-shadow-pink-100 relative transition-all ${location.pathname === "/" && "bg-light"}`}>
         <Link to='/'>
             <h1 className='text-2xl bg-gradient-to-r from-purple-600 to-rose-500 text-transparent bg-clip-text font-bold'>RentCar</h1>
         </Link>
