@@ -36,11 +36,30 @@ export const AppProvider = ({ children }) => {
         }
     }
     // Functions to fetch all cars from the server
+    const fetchCars = async () => {
+        try {
+            const {data} = await axios.get('/api/user/cars')
+            data.success ? setCars(data.cars) : toast.error(data.message)
+        } catch (error) {
+            toast.error(error.message)
+        }
+    }
+
+    // Function to logout the user
+    const logout = () => {
+        localStorage.removeItem('token');
+        setToken(null);
+        setUser(null)
+        setIsOwner(null);
+        axios.defaults.headers.common['Authorization'] = '';
+        toast.success("You have been logged out")
+    }
 
     // useEffect to retrieve the token from localStorage
     useEffect(() => {
         const token = localStorage.getItem('token');
-        setToken(token)
+        setToken(token);
+        fetchCars();
     }, [])
 
     // useEffect to fetch user data when the token is available
@@ -52,7 +71,8 @@ export const AppProvider = ({ children }) => {
     }, [token])
 
     const value = {
-        navigate, currency,
+        navigate, currency, axios, user, setUser, token, setToken, isOwner, setIsOwner, fetchUser, showLogin,
+        setShowLogin, logout, fetchCars, cars, setCars, pickupDate, setPickupDate, returnDate, setReturnDate
     }
 
     return (
