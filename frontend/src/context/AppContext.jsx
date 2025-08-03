@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from 'react-hot-toast';
@@ -41,7 +42,9 @@ export const AppProvider = ({ children }) => {
             const {data} = await axios.get('/api/user/cars')
             data.success ? setCars(data.cars) : toast.error(data.message)
         } catch (error) {
-            toast.error(error.message)
+            toast.error(error.message);
+            // optional: retry
+            setTimeout(fetchCars, 2000);
         }
     }
 
@@ -65,7 +68,7 @@ export const AppProvider = ({ children }) => {
         }
     }, [token])
 
-    
+
     // useEffect to retrieve the token from localStorage
     useEffect(() => {
         const token = localStorage.getItem('token');
