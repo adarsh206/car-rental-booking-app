@@ -55,12 +55,7 @@ export const AppProvider = ({ children }) => {
         toast.success("You have been logged out")
     }
 
-    // useEffect to retrieve the token from localStorage
-    useEffect(() => {
-        const token = localStorage.getItem('token');
-        setToken(token);
-        fetchCars();
-    }, [])
+
 
     // useEffect to fetch user data when the token is available
     useEffect(() => {
@@ -69,6 +64,15 @@ export const AppProvider = ({ children }) => {
             fetchUser()
         }
     }, [token])
+
+    
+    // useEffect to retrieve the token from localStorage
+    useEffect(() => {
+        const token = localStorage.getItem('token');
+        setToken(token);
+        fetchCars();
+        
+    }, [])
 
     const value = {
         navigate, currency, axios, user, setUser, token, setToken, isOwner, setIsOwner, fetchUser, showLogin,
