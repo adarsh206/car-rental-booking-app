@@ -18,7 +18,7 @@ const FeaturedSection = () => {
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-18'>
             {
-                cars.slice(0,6).map((car) => (
+                cars.slice(0,9).map((car) => (
                     <div key={car._id}>
                         <CarCard car={car}/>
                     </div>
