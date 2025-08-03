@@ -1,5 +1,5 @@
 #  CAR RENTAL BOOKING APP
-Buils a fully responsive full stack MERN Car Rental Booking App with ReactJs, NodeJs, ExpressJs and MongoDB.
+Build a fully responsive full stack MERN Car Rental Booking App with ReactJs, NodeJs, ExpressJs and MongoDB.
 
 #  IMAGES :
 
@@ -23,6 +23,8 @@ Buils a fully responsive full stack MERN Car Rental Booking App with ReactJs, No
 
 <img width="1902" height="867" alt="Image" src="https://github.com/user-attachments/assets/ff5dcf60-7be3-442a-b3de-dbd1ca5038b0" />
 
+#  MOBILE VIEW :
+
 <img width="360" height="3099" alt="Image" src="https://github.com/user-attachments/assets/a3003bae-7d17-4c4e-a969-c0b1f496c9b1" />
 
 <img width="360" height="1737" alt="Image" src="https://github.com/user-attachments/assets/27514c0c-1d80-4137-a7b4-833ec8c69150" />
@@ -42,3 +44,10 @@ Buils a fully responsive full stack MERN Car Rental Booking App with ReactJs, No
 <img width="362" height="734" alt="Image" src="https://github.com/user-attachments/assets/8d86a456-bd3c-4fb0-b790-b1cad651dfff" />
 
 <img width="359" height="740" alt="Image" src="https://github.com/user-attachments/assets/f6c31cfd-fe1c-4d7c-b9f8-732629bc97a3" />
+
+# How to Use this project:
+1. First clone this project and open in any code editor like VsCode.
+2. then install all the required packages mentioned in the package.json file
+3. then start the frontend project.
+4. and then setup the backend project same like frontend and create a database in mongoDB with your credentials.
+5. then start the backend project it will start showing the whole projects.
