@@ -11,13 +11,13 @@ Build a fully responsive full stack MERN Car Rental Booking App with ReactJs, No
 
 <img width="1920" height="1488" alt="Image" src="https://github.com/user-attachments/assets/19ea772a-146b-4954-a8c4-b622bb7fc5ea" />
 
-<img width="360" height="1110" alt="Image" src="https://github.com/user-attachments/assets/923bec23-e974-4538-983a-3496a76bc0dc" />
+<img width="1920" height="950" alt="Image" src="https://github.com/user-attachments/assets/11980dcb-faf2-4101-9aa1-79bfb2b7cfd5" />
 
-<img width="360" height="1321" alt="Image" src="https://github.com/user-attachments/assets/9f91ee4b-0723-47de-84af-dc38640b3959" />
+<img width="1920" height="1101" alt="Image" src="https://github.com/user-attachments/assets/a066fdf7-135c-4402-80a9-22dc48492408" />
 
-<img width="360" height="805" alt="Image" src="https://github.com/user-attachments/assets/5044d463-d956-42a1-a0d0-9ebecd27faa2" />
+<img width="1920" height="950" alt="Image" src="https://github.com/user-attachments/assets/cc50afe1-e5b3-4559-8cee-713c9a6d3c7b" />
 
-<img width="360" height="805" alt="Image" src="https://github.com/user-attachments/assets/689f2f94-0ec8-415e-a632-550a2123dcac" />
+<img width="1920" height="950" alt="Image" src="https://github.com/user-attachments/assets/f96b1a5d-4b69-4fb6-bcaf-50dc66ad3225" />
 
 <img width="1901" height="868" alt="Image" src="https://github.com/user-attachments/assets/54eed119-e90d-4404-8ddc-b4af324e4b0f" />
 
